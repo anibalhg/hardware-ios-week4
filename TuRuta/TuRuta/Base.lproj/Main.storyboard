@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="tmt-HC-PbN">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="rLn-I4-A9L">
+            <objects>
+                <navigationController id="tmt-HC-PbN" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="jbS-tm-Vsi">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="enA-a2-ccF"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MOE-WJ-hld" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-175" y="-482"/>
+        </scene>
+        <!--Tu Ruta-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="MapViewController" customModule="TuRuta" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="G9A-np-hAC">
+                                <rect key="frame" x="178" y="91" width="245" height="29"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="245" id="Z26-YH-p0j"/>
+                                </constraints>
+                                <segments>
+                                    <segment title="Normal"/>
+                                    <segment title="Satélite"/>
+                                    <segment title="Híbrido"/>
+                                </segments>
+                                <connections>
+                                    <action selector="mapTypeChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="xyg-1J-A5h"/>
+                                </connections>
+                            </segmentedControl>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="u2G-fq-sSa">
+                                <rect key="frame" x="20" y="127" width="560" height="418"/>
+                                <animations/>
+                            </mapView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="u2G-fq-sSa" secondAttribute="bottom" constant="55" id="2S7-qa-9b0"/>
+                            <constraint firstItem="u2G-fq-sSa" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="AF5-y0-Mhs"/>
+                            <constraint firstItem="u2G-fq-sSa" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="bwg-LZ-MG5"/>
+                            <constraint firstItem="u2G-fq-sSa" firstAttribute="top" secondItem="G9A-np-hAC" secondAttribute="bottom" constant="8" symbolic="YES" id="iEb-PN-CbC"/>
+                            <constraint firstItem="G9A-np-hAC" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="27" id="swM-IX-X0d"/>
+                            <constraint firstItem="u2G-fq-sSa" firstAttribute="centerX" secondItem="G9A-np-hAC" secondAttribute="centerX" id="x0j-Ds-fqy"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Tu Ruta" id="t2P-Au-fYs"/>
+                    <connections>
+                        <outlet property="map" destination="u2G-fq-sSa" id="0B4-hi-JRp"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="847" y="-482"/>
+        </scene>
+    </scenes>
+</document>

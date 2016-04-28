@@ -1,0 +1,292 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D7E0A9831CD1262400309947 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E0A9821CD1262400309947 /* AppDelegate.swift */; };
+		D7E0A9851CD1262600309947 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E0A9841CD1262600309947 /* MapViewController.swift */; };
+		D7E0A9881CD1262700309947 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7E0A9861CD1262700309947 /* Main.storyboard */; };
+		D7E0A98A1CD1262700309947 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7E0A9891CD1262700309947 /* Assets.xcassets */; };
+		D7E0A98D1CD1262700309947 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7E0A98B1CD1262700309947 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D7E0A97F1CD1262400309947 /* TuRuta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TuRuta.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7E0A9821CD1262400309947 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D7E0A9841CD1262600309947 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		D7E0A9871CD1262700309947 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D7E0A9891CD1262700309947 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D7E0A98C1CD1262700309947 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D7E0A98E1CD1262700309947 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D7E0A97C1CD1262400309947 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D7E0A9761CD1262300309947 = {
+			isa = PBXGroup;
+			children = (
+				D7E0A9811CD1262400309947 /* TuRuta */,
+				D7E0A9801CD1262400309947 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D7E0A9801CD1262400309947 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D7E0A97F1CD1262400309947 /* TuRuta.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D7E0A9811CD1262400309947 /* TuRuta */ = {
+			isa = PBXGroup;
+			children = (
+				D7E0A9821CD1262400309947 /* AppDelegate.swift */,
+				D7E0A9841CD1262600309947 /* MapViewController.swift */,
+				D7E0A9861CD1262700309947 /* Main.storyboard */,
+				D7E0A9891CD1262700309947 /* Assets.xcassets */,
+				D7E0A98B1CD1262700309947 /* LaunchScreen.storyboard */,
+				D7E0A98E1CD1262700309947 /* Info.plist */,
+			);
+			path = TuRuta;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D7E0A97E1CD1262400309947 /* TuRuta */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7E0A9911CD1262700309947 /* Build configuration list for PBXNativeTarget "TuRuta" */;
+			buildPhases = (
+				D7E0A97B1CD1262400309947 /* Sources */,
+				D7E0A97C1CD1262400309947 /* Frameworks */,
+				D7E0A97D1CD1262400309947 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TuRuta;
+			productName = TuRuta;
+			productReference = D7E0A97F1CD1262400309947 /* TuRuta.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D7E0A9771CD1262300309947 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Dev;
+				TargetAttributes = {
+					D7E0A97E1CD1262400309947 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = D7E0A97A1CD1262300309947 /* Build configuration list for PBXProject "TuRuta" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D7E0A9761CD1262300309947;
+			productRefGroup = D7E0A9801CD1262400309947 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D7E0A97E1CD1262400309947 /* TuRuta */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D7E0A97D1CD1262400309947 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7E0A98D1CD1262700309947 /* LaunchScreen.storyboard in Resources */,
+				D7E0A98A1CD1262700309947 /* Assets.xcassets in Resources */,
+				D7E0A9881CD1262700309947 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D7E0A97B1CD1262400309947 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7E0A9851CD1262600309947 /* MapViewController.swift in Sources */,
+				D7E0A9831CD1262400309947 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D7E0A9861CD1262700309947 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7E0A9871CD1262700309947 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D7E0A98B1CD1262700309947 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7E0A98C1CD1262700309947 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D7E0A98F1CD1262700309947 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D7E0A9901CD1262700309947 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D7E0A9921CD1262700309947 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TuRuta/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mx.anibal.TuRuta;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D7E0A9931CD1262700309947 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TuRuta/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mx.anibal.TuRuta;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D7E0A97A1CD1262300309947 /* Build configuration list for PBXProject "TuRuta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7E0A98F1CD1262700309947 /* Debug */,
+				D7E0A9901CD1262700309947 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7E0A9911CD1262700309947 /* Build configuration list for PBXNativeTarget "TuRuta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7E0A9921CD1262700309947 /* Debug */,
+				D7E0A9931CD1262700309947 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D7E0A9771CD1262300309947 /* Project object */;
+}
